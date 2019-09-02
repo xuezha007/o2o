@@ -1,0 +1,9 @@
+2019-09-02 08:24:20.084 {main} DEBUG com.dao.ShopDao.updateShop-==>  Preparing: update o2o.tb_shop SET shop_desc=?, shop_addr=? where shop_id=? 
+2019-09-02 08:24:20.127 {main} DEBUG com.dao.ShopDao.updateShop-==> Parameters: test2(String), 测试的店铺gg(String), 1(Long)
+2019-09-02 08:24:20.287 {main} DEBUG com.dao.ShopDao.updateShop-<==    Updates: 0
+2019-09-02 08:25:46.953 {main} DEBUG com.dao.ShopDao.updateShop-==>  Preparing: update o2o.tb_shop SET shop_desc=?, shop_addr=? where shop_id=? 
+2019-09-02 08:25:46.978 {main} DEBUG com.dao.ShopDao.updateShop-==> Parameters: test2(String), 测试的店铺gg(String), 1(Long)
+2019-09-02 08:25:47.060 {main} DEBUG com.dao.ShopDao.updateShop-<==    Updates: 0
+2019-09-02 08:27:05.965 {main} DEBUG com.dao.ShopDao.updateShop-==>  Preparing: update o2o.tb_shop SET shop_desc=?, shop_addr=? where shop_id=? 
+2019-09-02 08:27:05.999 {main} DEBUG com.dao.ShopDao.updateShop-==> Parameters: test2(String), 测试的店铺gg(String), 1(Long)
+2019-09-02 08:27:06.117 {main} DEBUG com.dao.ShopDao.updateShop-<==    Updates: 1

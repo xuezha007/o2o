@@ -3,18 +3,18 @@ package com.entity;
 import java.util.Date;
 
 public class Area {
-	private Long areaId;
+	private Integer areaId;
 	private String areaName;
-	private String areaDesc;
+
 	private Integer priority;
 	private Date createTime;
 	private Date lastEditTime;
 
-	public Long getAreaId() {
+	public Integer getAreaId() {
 		return areaId;
 	}
 
-	public void setAreaId(Long areaId) {
+	public void setAreaId(Integer areaId) {
 		this.areaId = areaId;
 	}
 
@@ -24,14 +24,6 @@ public class Area {
 
 	public void setAreaName(String areaName) {
 		this.areaName = areaName;
-	}
-
-	public String getAreaDesc() {
-		return areaDesc;
-	}
-
-	public void setAreaDesc(String areaDesc) {
-		this.areaDesc = areaDesc;
 	}
 
 	public Integer getPriority() {
@@ -57,5 +49,4 @@ public class Area {
 	public void setLastEditTime(Date lastEditTime) {
 		this.lastEditTime = lastEditTime;
 	}
-
 }
