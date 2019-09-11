@@ -13,6 +13,12 @@
       <encoder>
           <pattern>${log.pattern}</pattern>
       </encoder>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+
+        </filter>
     </appender>
     <!--    INFO-->
     <appender name="debugAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -28,12 +34,12 @@
         <encoder>
             <pattern>${log.pattern}</pattern>
         </encoder>
-        <fiilter class="ch.qos.logback.classic.filter.LevelFilter">
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
             <level>DEBUG</level>
             <onMatch>ACCEPT</onMatch>
             <onMismatch>DENY</onMismatch>
 
-        </fiilter>
+        </filter>
     </appender>
     <appender name="debugAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>
@@ -48,12 +54,12 @@
         <encoder>
             <pattern>${log.pattern}</pattern>
         </encoder>
-        <fiilter class="ch.qos.logback.classic.filter.LevelFilter">
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
             <level>DEBUG</level>
             <onMatch>ACCEPT</onMatch>
             <onMismatch>DENY</onMismatch>
 
-        </fiilter>
+        </filter>
     </appender>
     <appender name="infoAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>
@@ -68,12 +74,12 @@
         <encoder>
             <pattern>${log.pattern}</pattern>
         </encoder>
-        <fiilter class="ch.qos.logback.classic.filter.LevelFilter">
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
             <level>INFO</level>
             <onMatch>ACCEPT</onMatch>
             <onMismatch>DENY</onMismatch>
 
-        </fiilter>
+        </filter>
     </appender>
 <!--    -&#45;&#45;&#45;&#45;-->
     <appender name="errorAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -89,12 +95,12 @@
         <encoder>
             <pattern>${log.pattern}</pattern>
         </encoder>
-        <fiilter class="ch.qos.logback.classic.filter.LevelFilter">
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
             <level>ERROR</level>
             <onMatch>ACCEPT</onMatch>
             <onMismatch>DENY</onMismatch>
 
-        </fiilter>
+        </filter>
     </appender>
     <logger name="com" level="${log.level} " additivity="true">
         <appender-ref ref="debugAppender"/>
@@ -107,5 +113,6 @@
 
 
     </root>
+
 </configuration>
 

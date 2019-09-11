@@ -1,9 +1,26 @@
-2019-09-02 08:24:20.084 {main} DEBUG com.dao.ShopDao.updateShop-==>  Preparing: update o2o.tb_shop SET shop_desc=?, shop_addr=? where shop_id=? 
-2019-09-02 08:24:20.127 {main} DEBUG com.dao.ShopDao.updateShop-==> Parameters: test2(String), 测试的店铺gg(String), 1(Long)
-2019-09-02 08:24:20.287 {main} DEBUG com.dao.ShopDao.updateShop-<==    Updates: 0
-2019-09-02 08:25:46.953 {main} DEBUG com.dao.ShopDao.updateShop-==>  Preparing: update o2o.tb_shop SET shop_desc=?, shop_addr=? where shop_id=? 
-2019-09-02 08:25:46.978 {main} DEBUG com.dao.ShopDao.updateShop-==> Parameters: test2(String), 测试的店铺gg(String), 1(Long)
-2019-09-02 08:25:47.060 {main} DEBUG com.dao.ShopDao.updateShop-<==    Updates: 0
-2019-09-02 08:27:05.965 {main} DEBUG com.dao.ShopDao.updateShop-==>  Preparing: update o2o.tb_shop SET shop_desc=?, shop_addr=? where shop_id=? 
-2019-09-02 08:27:05.999 {main} DEBUG com.dao.ShopDao.updateShop-==> Parameters: test2(String), 测试的店铺gg(String), 1(Long)
-2019-09-02 08:27:06.117 {main} DEBUG com.dao.ShopDao.updateShop-<==    Updates: 1
+2019-09-04 00:37:58.542 {main} ERROR com.util.imageUtil-current relativeAddr is\upload\items\shop\7\2019090400375829247.jpg
+2019-09-04 00:37:58.825 {main} ERROR com.util.imageUtil-javax.imageio.IIOException: Can't read input file!
+2019-09-04 00:47:21.384 {main} ERROR com.util.imageUtil-current relativeAddr is\upload\items\shop\8\2019090400472122003.jpg
+2019-09-04 00:47:21.559 {main} ERROR com.util.imageUtil-javax.imageio.IIOException: Can't read input file!
+2019-09-04 13:54:06.500 {main} ERROR com.util.imageUtil-current relativeAddr is\upload\items\shop\9\2019090413540695202.jpg
+2019-09-04 13:54:06.630 {main} ERROR com.util.imageUtil-javax.imageio.IIOException: Can't read input file!
+2019-09-04 14:22:31.082 {main} ERROR com.util.imageUtil-current relativeAddr is\upload\items\shop\10\2019090414223012988.jpg
+2019-09-04 14:22:31.206 {main} ERROR com.util.imageUtil-javax.imageio.IIOException: Can't read input file!
+2019-09-04 14:59:04.844 {main} ERROR com.util.imageUtil-current relativeAddr is\upload\items\shop\11\2019090414590417753.jpg
+2019-09-04 14:59:04.944 {main} ERROR com.util.imageUtil-javax.imageio.IIOException: Can't read input file!
+2019-09-04 15:07:33.742 {main} ERROR com.util.imageUtil-current relativeAddr is\upload\items\shop\12\2019090415073380555.jpg
+2019-09-04 15:07:33.857 {main} ERROR com.util.imageUtil-javax.imageio.IIOException: Can't read input file!
+2019-09-04 15:08:31.576 {main} ERROR com.util.imageUtil-current relativeAddr is\upload\items\shop\13\2019090415083190288.jpg
+2019-09-04 15:08:31.689 {main} ERROR com.util.imageUtil-javax.imageio.IIOException: Can't read input file!
+2019-09-04 15:16:34.703 {main} ERROR com.util.imageUtil-current relativeAddr is\upload\items\shop\14\2019090415163451216.jpg
+2019-09-04 15:16:34.817 {main} ERROR com.util.imageUtil-javax.imageio.IIOException: Can't read input file!
+2019-09-04 15:51:13.046 {main} ERROR com.util.imageUtil-current relativeAddr is\upload\items\shop\15\2019090415511395766.jpg
+2019-09-04 15:51:13.162 {main} ERROR com.util.imageUtil-javax.imageio.IIOException: Can't read input file!
+2019-09-04 16:21:52.909 {main} ERROR com.util.imageUtil-current relativeAddr is\upload\items\shop\16\2019090416215293622.jpg
+2019-09-04 16:21:53.009 {main} ERROR com.util.imageUtil-javax.imageio.IIOException: Can't read input file!
+2019-09-04 19:41:49.279 {main} ERROR com.util.imageUtil-current relativeAddr is\upload\items\shop\17\2019090419414925441.jpg
+2019-09-04 19:41:49.386 {main} ERROR com.util.imageUtil-javax.imageio.IIOException: Can't read input file!
+2019-09-04 19:49:27.502 {main} ERROR com.util.imageUtil-current relativeAddr is\upload\items\shop\18\2019090419492749711.jpg
+2019-09-04 19:49:27.604 {main} ERROR com.util.imageUtil-javax.imageio.IIOException: Can't read input file!
+2019-09-04 19:49:49.950 {main} ERROR com.util.imageUtil-current relativeAddr is\upload\items\shop\19\2019090419494974193.jpg
+2019-09-04 19:58:00.147 {main} ERROR com.util.imageUtil-javax.imageio.IIOException: Can't read input file!
